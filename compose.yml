@@ -174,3 +174,7 @@ services:
 ###################################################
 volumes:
   todo-mysql-data:
+
+networks:
+  proxy:
+    external: true
